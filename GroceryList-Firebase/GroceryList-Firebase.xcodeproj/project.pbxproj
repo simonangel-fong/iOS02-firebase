@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4317BE22B585BF000667883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4317BE12B585BF000667883 /* AppDelegate.swift */; };
+		F4317BE42B585BF000667883 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4317BE32B585BF000667883 /* SceneDelegate.swift */; };
+		F4317BE62B585BF000667883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4317BE52B585BF000667883 /* ViewController.swift */; };
+		F4317BE92B585BF000667883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4317BE72B585BF000667883 /* Main.storyboard */; };
+		F4317BEB2B585BF100667883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4317BEA2B585BF100667883 /* Assets.xcassets */; };
+		F4317BEE2B585BF100667883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4317BEC2B585BF100667883 /* LaunchScreen.storyboard */; };
+		F4317BF92B585BF200667883 /* GroceryList_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4317BF82B585BF200667883 /* GroceryList_FirebaseTests.swift */; };
+		F4317C032B585BF200667883 /* GroceryList_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4317C022B585BF200667883 /* GroceryList_FirebaseUITests.swift */; };
+		F4317C052B585BF200667883 /* GroceryList_FirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4317C042B585BF200667883 /* GroceryList_FirebaseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4317BF52B585BF200667883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4317BD62B585BF000667883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4317BDD2B585BF000667883;
+			remoteInfo = "GroceryList-Firebase";
+		};
+		F4317BFF2B585BF200667883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4317BD62B585BF000667883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4317BDD2B585BF000667883;
+			remoteInfo = "GroceryList-Firebase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4317BDE2B585BF000667883 /* GroceryList-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GroceryList-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4317BE12B585BF000667883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4317BE32B585BF000667883 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4317BE52B585BF000667883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4317BE82B585BF000667883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4317BEA2B585BF100667883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4317BED2B585BF100667883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4317BEF2B585BF100667883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4317BF42B585BF200667883 /* GroceryList-FirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GroceryList-FirebaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4317BF82B585BF200667883 /* GroceryList_FirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList_FirebaseTests.swift; sourceTree = "<group>"; };
+		F4317BFE2B585BF200667883 /* GroceryList-FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GroceryList-FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4317C022B585BF200667883 /* GroceryList_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList_FirebaseUITests.swift; sourceTree = "<group>"; };
+		F4317C042B585BF200667883 /* GroceryList_FirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList_FirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4317BDB2B585BF000667883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4317BF12B585BF200667883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4317BFB2B585BF200667883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4317BD52B585BF000667883 = {
+			isa = PBXGroup;
+			children = (
+				F4317BE02B585BF000667883 /* GroceryList-Firebase */,
+				F4317BF72B585BF200667883 /* GroceryList-FirebaseTests */,
+				F4317C012B585BF200667883 /* GroceryList-FirebaseUITests */,
+				F4317BDF2B585BF000667883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4317BDF2B585BF000667883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4317BDE2B585BF000667883 /* GroceryList-Firebase.app */,
+				F4317BF42B585BF200667883 /* GroceryList-FirebaseTests.xctest */,
+				F4317BFE2B585BF200667883 /* GroceryList-FirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4317BE02B585BF000667883 /* GroceryList-Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				F4317BE12B585BF000667883 /* AppDelegate.swift */,
+				F4317BE32B585BF000667883 /* SceneDelegate.swift */,
+				F4317BE52B585BF000667883 /* ViewController.swift */,
+				F4317BE72B585BF000667883 /* Main.storyboard */,
+				F4317BEA2B585BF100667883 /* Assets.xcassets */,
+				F4317BEC2B585BF100667883 /* LaunchScreen.storyboard */,
+				F4317BEF2B585BF100667883 /* Info.plist */,
+			);
+			path = "GroceryList-Firebase";
+			sourceTree = "<group>";
+		};
+		F4317BF72B585BF200667883 /* GroceryList-FirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4317BF82B585BF200667883 /* GroceryList_FirebaseTests.swift */,
+			);
+			path = "GroceryList-FirebaseTests";
+			sourceTree = "<group>";
+		};
+		F4317C012B585BF200667883 /* GroceryList-FirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4317C022B585BF200667883 /* GroceryList_FirebaseUITests.swift */,
+				F4317C042B585BF200667883 /* GroceryList_FirebaseUITestsLaunchTests.swift */,
+			);
+			path = "GroceryList-FirebaseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4317BDD2B585BF000667883 /* GroceryList-Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4317C082B585BF200667883 /* Build configuration list for PBXNativeTarget "GroceryList-Firebase" */;
+			buildPhases = (
+				F4317BDA2B585BF000667883 /* Sources */,
+				F4317BDB2B585BF000667883 /* Frameworks */,
+				F4317BDC2B585BF000667883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GroceryList-Firebase";
+			productName = "GroceryList-Firebase";
+			productReference = F4317BDE2B585BF000667883 /* GroceryList-Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4317BF32B585BF200667883 /* GroceryList-FirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4317C0B2B585BF200667883 /* Build configuration list for PBXNativeTarget "GroceryList-FirebaseTests" */;
+			buildPhases = (
+				F4317BF02B585BF200667883 /* Sources */,
+				F4317BF12B585BF200667883 /* Frameworks */,
+				F4317BF22B585BF200667883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4317BF62B585BF200667883 /* PBXTargetDependency */,
+			);
+			name = "GroceryList-FirebaseTests";
+			productName = "GroceryList-FirebaseTests";
+			productReference = F4317BF42B585BF200667883 /* GroceryList-FirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4317BFD2B585BF200667883 /* GroceryList-FirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4317C0E2B585BF200667883 /* Build configuration list for PBXNativeTarget "GroceryList-FirebaseUITests" */;
+			buildPhases = (
+				F4317BFA2B585BF200667883 /* Sources */,
+				F4317BFB2B585BF200667883 /* Frameworks */,
+				F4317BFC2B585BF200667883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4317C002B585BF200667883 /* PBXTargetDependency */,
+			);
+			name = "GroceryList-FirebaseUITests";
+			productName = "GroceryList-FirebaseUITests";
+			productReference = F4317BFE2B585BF200667883 /* GroceryList-FirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4317BD62B585BF000667883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F4317BDD2B585BF000667883 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F4317BF32B585BF200667883 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F4317BDD2B585BF000667883;
+					};
+					F4317BFD2B585BF200667883 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F4317BDD2B585BF000667883;
+					};
+				};
+			};
+			buildConfigurationList = F4317BD92B585BF000667883 /* Build configuration list for PBXProject "GroceryList-Firebase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4317BD52B585BF000667883;
+			productRefGroup = F4317BDF2B585BF000667883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4317BDD2B585BF000667883 /* GroceryList-Firebase */,
+				F4317BF32B585BF200667883 /* GroceryList-FirebaseTests */,
+				F4317BFD2B585BF200667883 /* GroceryList-FirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4317BDC2B585BF000667883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4317BEE2B585BF100667883 /* LaunchScreen.storyboard in Resources */,
+				F4317BEB2B585BF100667883 /* Assets.xcassets in Resources */,
+				F4317BE92B585BF000667883 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4317BF22B585BF200667883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4317BFC2B585BF200667883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4317BDA2B585BF000667883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4317BE62B585BF000667883 /* ViewController.swift in Sources */,
+				F4317BE22B585BF000667883 /* AppDelegate.swift in Sources */,
+				F4317BE42B585BF000667883 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4317BF02B585BF200667883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4317BF92B585BF200667883 /* GroceryList_FirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4317BFA2B585BF200667883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4317C032B585BF200667883 /* GroceryList_FirebaseUITests.swift in Sources */,
+				F4317C052B585BF200667883 /* GroceryList_FirebaseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4317BF62B585BF200667883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4317BDD2B585BF000667883 /* GroceryList-Firebase */;
+			targetProxy = F4317BF52B585BF200667883 /* PBXContainerItemProxy */;
+		};
+		F4317C002B585BF200667883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4317BDD2B585BF000667883 /* GroceryList-Firebase */;
+			targetProxy = F4317BFF2B585BF200667883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4317BE72B585BF000667883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4317BE82B585BF000667883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4317BEC2B585BF100667883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4317BED2B585BF100667883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4317C062B585BF200667883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4317C072B585BF200667883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4317C092B585BF200667883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD343X57ZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GroceryList-Firebase/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Argus.GroceryList-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4317C0A2B585BF200667883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD343X57ZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GroceryList-Firebase/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Argus.GroceryList-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4317C0C2B585BF200667883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD343X57ZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Argus.GroceryList-FirebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryList-Firebase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GroceryList-Firebase";
+			};
+			name = Debug;
+		};
+		F4317C0D2B585BF200667883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD343X57ZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Argus.GroceryList-FirebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryList-Firebase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GroceryList-Firebase";
+			};
+			name = Release;
+		};
+		F4317C0F2B585BF200667883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD343X57ZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Argus.GroceryList-FirebaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GroceryList-Firebase";
+			};
+			name = Debug;
+		};
+		F4317C102B585BF200667883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD343X57ZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Argus.GroceryList-FirebaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GroceryList-Firebase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4317BD92B585BF000667883 /* Build configuration list for PBXProject "GroceryList-Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4317C062B585BF200667883 /* Debug */,
+				F4317C072B585BF200667883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4317C082B585BF200667883 /* Build configuration list for PBXNativeTarget "GroceryList-Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4317C092B585BF200667883 /* Debug */,
+				F4317C0A2B585BF200667883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4317C0B2B585BF200667883 /* Build configuration list for PBXNativeTarget "GroceryList-FirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4317C0C2B585BF200667883 /* Debug */,
+				F4317C0D2B585BF200667883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4317C0E2B585BF200667883 /* Build configuration list for PBXNativeTarget "GroceryList-FirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4317C0F2B585BF200667883 /* Debug */,
+				F4317C102B585BF200667883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4317BD62B585BF000667883 /* Project object */;
+}
